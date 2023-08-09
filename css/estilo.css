@@ -1,0 +1,249 @@
+/*
+GERAL
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(../imagens/fundo.png) repeat-x top right;
+}
+#main{
+	width: 80%;
+	min-width: 750px;
+	margin: 0 auto;
+}
+
+/*
+TOPO
+*/
+#header{
+	min-height: 180px;
+	padding-top: 25px;
+	background: url(../imagens/detalhe-topo.png) no-repeat top right;
+}
+.logo{
+	background: url(../imagens/logo.png) no-repeat top left;
+	min-height: 100px;
+	min-width: 200px;
+	text-indent: -8000px;
+}
+/*
+MENU SUPERIOR 
+ */
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#header ul{
+	width: 100%;
+	margin-top: 5px;
+
+	padding-right: -100px;
+	background: #b10333;
+	float: left;
+}
+
+#header ul li{
+	width: 20%;
+	float: left;
+}
+
+#header ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	line-height: 2.1em;
+	background: url(../imagens/divisor.png)top left repeat-y;
+}
+
+#header ul .first a{
+	background: none;
+}
+#header ul a:hover{
+	color: #69001d;
+}
+
+body.home #top-menu a#home{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+body.brasil #top-menu a#brasil{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+body.economia #top-menu a#economia{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+body.saude #top-menu a#saude{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+body.cultura #top-menu a#cultura{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+/*
+CORPO 3
+*/
+#content{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	width: 100%;
+	float: left;
+}
+
+#primary{
+	margin: 0% 0% 0% 26%;
+	width: 36%;
+	float: left;
+}
+#secundary{
+	margin: 0% 0% 0% 2%;
+	width: 36%;
+	float: left;
+}
+#lateral{
+	padding: 35px 0;
+	margin: 0% 0% 0% -100%;
+	width: 24%;
+	float: left;
+}
+#botton{
+	background: #294c71;
+	padding: 20px;
+}
+#botton-lb{
+	min-width: 750px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}
+
+/*
+Caixa
+*/
+.caixa{ margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h3{
+	font-size: 0.9em;
+	background: #b10333;
+	padding: 5px;
+}
+
+h3.destaque{
+	color: #fff;
+}
+
+h2{
+	font-size: 1.1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+.caixa-conteudo{
+	background: #fff;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.caixa-conteudo ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.caixa-conteudo a{
+	background: #b10333;
+	padding: 0 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.caixa-conteudo a:hover{
+	background: #69001d;
+}
+img{
+	width: 95%;
+	padding: 15px 2.5%;
+}
+#listimg a{
+	background: #fff;
+	color: #294c71;
+}
+#listimg ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#listimg img{ margin-top: 10px;
+	width: 20%;
+	float: left;
+}
+#listimg p{
+	color: #b10333;
+	font-size: 0.8em;
+}
+#entrevista	a{
+	display: block;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-align: left;
+	color: gray;
+	line-height: 2.1em;
+	margin-left: 5px;
+	background: #fff;
+}
+#entrevista a:hover{
+	color: lightgrey;
+	background: url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 25px;
+}
+
+label{
+	margin: 0 2.5%;
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	width: 90%;
+	font-size: 0.9em;
+	padding: 5px;
+	margin: 0 2.5%;
+	background-color: #fff;
+}
+
+input.submit{
+	width: 60%;
+	font-size: 0.8em;
+	margin: 0 17.5%;
+	border: 2px solid #870529;
+	background-color: #b10333;
+	color: #fff;
+	cursor: pointer;
+}
+
+#texto-linksimgs{
+	padding-bottom: 10px;
+}
+#texto-linksimgs:hover{
+	background: lightgray;
+}
+#listimg p:hover{
+	color: red;
+}
